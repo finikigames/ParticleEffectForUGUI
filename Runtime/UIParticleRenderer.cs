@@ -256,7 +256,7 @@ namespace Coffee.UIExtensions
 
             // Support sprite.
             var tsa = ps.textureSheetAnimation;
-            if (tsa.mode == ParticleSystemAnimationMode.Sprites && tsa.uvChannelMask == 0)
+            if (tsa.mode == ParticleSystemAnimationMode.Sprites)
             {
                 tsa.uvChannelMask = UVChannelFlags.UV0;
             }
