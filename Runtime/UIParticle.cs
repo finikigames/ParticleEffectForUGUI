@@ -538,7 +538,7 @@ namespace Coffee.UIExtensions
             {
                 var ps = particles[i];
                 var tsa = ps.textureSheetAnimation;
-                if (tsa.mode == ParticleSystemAnimationMode.Sprites && tsa.uvChannelMask == 0)
+                if (tsa.mode == ParticleSystemAnimationMode.Sprites)
                 {
                     tsa.uvChannelMask = UVChannelFlags.UV0;
                 }
